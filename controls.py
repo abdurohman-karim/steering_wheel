@@ -23,7 +23,7 @@ steering_turned = False
 
 
 def gas_hold():
-    gamepad.right_trigger(value=150)
+    gamepad.right_trigger(value=200)
     gamepad.update()
 
 
